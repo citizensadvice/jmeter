@@ -8,4 +8,5 @@ RUN apt-get update && \
     rm apache-jmeter-3.1.tgz && \
     mv apache-jmeter-3.1 jmeter && \
     ln -s /opt/jmeter/bin/jmeter /usr/bin/jmeter && \
+    ln -s /opt/jmeter/bin/jmeter-server /usr/bin/jmeter-server && \
     rm -rf /var/lib/apt/lists/*
